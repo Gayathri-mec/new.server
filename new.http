@@ -1,0 +1,23 @@
+GET http://localhost:2021/back
+
+POST http://localhost:2021/new
+Content-Type: application/json
+
+{
+    "roll_no": 37,
+    "name": "varun",
+    "email": "varun@gamil.com",
+    "phonenumber":124654
+}
+
+PUT http://localhost:2021/change/51
+content-Type: application/json
+
+{
+    "roll_no": 51,
+    "name": "junghook",
+    "email": "jung@gamil.com",
+    "phonenumber":3498764
+}
+
+DELETE http://localhost:2021/remove/36
